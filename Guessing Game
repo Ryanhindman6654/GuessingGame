@@ -1,0 +1,27 @@
+import random
+mydata = input('Prompt :')
+def method_name():
+    return print (mydata)
+method_name()
+n = random.randint(1, 100)
+guess = int(input("Enter an integer from 1 to 100: "))
+def method_name():
+    guess = int(input("Enter an integer from 1 to 100: "))
+    return guess
+
+def method_name():
+    guess = int(input("Enter an integer from 1 to 100: "))
+    return guess
+
+while n != "guess":
+    print
+    if guess < n:
+        print("guess is low")
+        guess = method_name()
+    elif guess > n:
+        print("guess is high")
+        guess = method_name()
+    else:
+        print("you guessed it!")
+        break
+    print
